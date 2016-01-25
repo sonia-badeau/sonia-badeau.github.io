@@ -44,8 +44,10 @@ img {
     width : 250px;
     height : 250px;
     border-radius: 50%;
+    border: lightblue 5px solid;
     -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s, height 1s;
+    margin: 30px;
 }
 
 img:hover {
@@ -61,9 +63,34 @@ header {
 	margin-bottom: 50px;
 }
 
-ul {
-    text-align: left;
+nav {
+    padding: 20px;
 }
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	
+}
+
+nav a {
+	display: block;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	font-family: 'Lato';
+	font-size: 17px;
+	text-decoration: none;
+}
+
+
+/*ul {
+    text-align: left;
+}*/
 
 
 
