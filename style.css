@@ -47,7 +47,7 @@ img {
     border: lightblue 5px solid;
     -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s, height 1s;
-    margin: 30px;
+    margin: 80px;
 }
 
 img:hover {
@@ -61,10 +61,15 @@ header {
 	height: 800px;
 	background-size: 100%;
 	margin-bottom: 50px;
+	width: 100%;
 }
 
 nav {
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+
 }
 
 nav ul {
@@ -76,6 +81,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	
+	
 }
 
 nav a {
@@ -85,6 +91,7 @@ nav a {
 	font-family: 'Lato';
 	font-size: 17px;
 	text-decoration: none;
+	letter-spacing: 0.1em;
 }
 
 
@@ -100,6 +107,12 @@ nav a {
     text-align: center;
     font-family: 'Lato';
     padding-bottom: 40px;
+}
+
+.transition {
+    background: url("images/homepage.jpg") 0 0 no-repeat;
+	height: 500px;
+	background-size: 100%;
 }
 
 footer {
@@ -121,5 +134,15 @@ a {
 }
 
 a:hover {
-    color: #FFF;
+    color: lightblue;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.top-container {
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
 }
